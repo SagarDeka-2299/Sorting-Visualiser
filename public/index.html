@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tool">
+        <div id="controls">
+            <button class="btn" id="start">SORT</button>
+            <button class="btn" id="pause">PAUSE</button>
+            <input  type="text" id="Howmany" placeholder="No. of array element">
+            <select id="algorithm" class="btn" >
+                <option value="Selection">SELECTION SORT</option>
+                <option value="Merge">MERGE SORT</option>
+                <option value="Bubble">BUBBLE SORT</option>
+                <option value="Insertion">INSERTION SORT</option>
+            </select>
+            <button class="btn" id='showArray'>SHOW ARRAY</button>
+        </div>
+
+    </div>
+    <div class="canvasContainer">
+        <canvas></canvas>
+    </div>
+    <div id="array">
+        <textarea id="arrayText" cols="100" rows="40" readonly aria-expanded="false">
+        </textarea>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
